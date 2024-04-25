@@ -20,6 +20,11 @@
     font-weight: 500;
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1040px){
     .nav-menu{
         flex-direction: column;
@@ -30,16 +35,30 @@
         background-color: rgba(0,0,0,0.9);
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
+        transition: 0.3s ease-in-out;
 
     }
+    .nav-menu.active{
+        left: 0;
+        z-index: 3;
+    }
+
     .nav-menu li{
         padding: 1rem 0;
          
     }
     .nav-menu li a{
         font-size: 2rem;
+    }
+
+    .hamburger{
+        display: initial;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 3;
     }
     
 }
