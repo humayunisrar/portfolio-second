@@ -9,7 +9,6 @@ const Navbar = () => {
 
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
-  const [color,setColor]=useState(false);
   const changeColor=()=>{
     if(window.scrollY>=80){
       setColor(true);
