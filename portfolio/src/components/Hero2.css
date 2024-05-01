@@ -1,0 +1,50 @@
+.hero-img{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before{
+
+    content: "";
+    background: url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-position: center top;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.hero-img h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+}
+.hero-img p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+@media screen and (max-width: 640px){
+    .hero-img h1{
+        font-size: 2rem;
+    }
+    .hero-img p{
+        font-size: 1.2rem;
+    }
+    
+}
