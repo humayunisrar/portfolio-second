@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
     <Navbar />
-    <Hero2/>
+    <Hero2 heading="ABOUT." text="Learn About Me!"/>
     <Footer />
   </div>
   )
