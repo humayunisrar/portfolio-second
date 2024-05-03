@@ -33,15 +33,18 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
+    
 }
 .project-btn .btn{
     padding: 0.5rem 1rem;
+    width: 45%;
+    text-align: center;
+
 }
 @media screen and (max-width: 740px){
     .project-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
-    }
-    
+    }   
 }
