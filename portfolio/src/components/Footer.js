@@ -17,8 +17,7 @@ const Footer = () => {
           <div className="location">
             <FaHome style={{ color: "#fff", marginRight: "2rem" }} size={20} />
             <div>
-              <p>Location 123</p>
-              <p>City, State, Country</p>
+              <p>Karachi, PK</p>
             </div>
           </div>
           <div className="phone">
@@ -27,7 +26,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              1-2345-8696
+              +92 336 3204705
             </h4>
           </div>
           <div className="email">
@@ -43,9 +42,12 @@ const Footer = () => {
 
         <div className="right">
           
-          <h4>About</h4>
-          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          
+        <div className='cv-download'>
+  <h4>Download CV</h4>
+  <a href="https://drive.google.com/file/d/1dZHSjX6gpoCvHFNum4kP79QwjcbCwiUh/view?usp=sharing" download>
+    <button className="btn">Download</button>
+  </a>
+</div>
           <div className="social">
             <a href="https://github.com">
               <FaInstagram
