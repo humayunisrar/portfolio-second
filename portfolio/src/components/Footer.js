@@ -1,6 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import { FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import {
+  FaGithub,
+  FaHome,
+  FaInstagram,
+  FaLinkedin,
+  FaMailBulk,
+  FaPhone,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,7 +26,8 @@ const Footer = () => {
               <FaPhone
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
-              />1-2345-8696
+              />
+              1-2345-8696
             </h4>
           </div>
           <div className="email">
@@ -27,36 +35,41 @@ const Footer = () => {
               <FaMailBulk
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
-              />nexusconnectpro@gmail.com
+              />
+              nexusconnectpro@gmail.com
             </h4>
           </div>
-        
         </div>
+
         <div className="right">
-
+          
           <h4>About</h4>
-
-          <p>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          </p>
+          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          
           <div className="social">
-          <FaInstagram
+            <a href="https://github.com">
+              <FaInstagram
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
+            </a>
+
+            <a href="https://www.linkedin.com/in/humayun-israr-466276218/">
               <FaLinkedin
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
+            </a>
+            <a href="https://github.com/humayunisrar">
               <FaGithub
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              
-
+            </a>
           </div>
-
+          
         </div>
+        <p>&copy; 2024 Nexus.</p>
       </div>
     </div>
   );
