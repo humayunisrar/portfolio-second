@@ -1,8 +1,9 @@
 import sleet from "../assets/sleet.jpg";
 import nextgen from "../assets/nextgen.jpg";
-import senior from "../assets/senior.jpg";
 import slb2 from "../assets/SLB2.png";
-import ameera2 from "../assets/Ameera2.png";
+import ameera from "../assets/AMEERA.jpg";
+import senior from "../assets/SEN.jpg";
+import hoo from "../assets/HOO.jpg";
 
 
 
@@ -30,7 +31,7 @@ const ProjectData = [
         
     },
     {
-        imgsrc: ameera2,
+        imgsrc: ameera,
         title: "Ameera Art",
         text: "Ameera Art, a platform dedicated to showcasing expertise in English calligraphy. Residing in KSA, and an expert in the art of English calligraphy.",
         view: "https://www.ameeraart.com/",
@@ -39,8 +40,15 @@ const ProjectData = [
     {
         imgsrc: senior,
         title: "Senior-Investigators",
-        text: "enior Investigations is a reputable Gold Coast-based private investigation agency specialising in a wide range of investigation services including background checks, factual investigations, surveillance, genealogy, and skip tracing.",
+        text: "Senior Investigations is a reputable Gold Coast-based private investigation agency specialising in a wide range of investigation services including background checks, factual investigations, surveillance, genealogy, and skip tracing.",
         view: "https://www.seniorinvestigations.com.au/",
+        
+    },
+    {
+        imgsrc: hoo,
+        title: "HOO BANK",
+        text: "The Next Generation Payment Method.",
+        view: "https://hoobank-project1.netlify.app/",
         
     }
 ]

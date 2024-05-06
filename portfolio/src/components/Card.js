@@ -1,6 +1,5 @@
 import React from "react";
 import "./Card.css";
-import sleet from "../assets/sleet.jpg";
 import { NavLink } from "react-router-dom";
 
 const Card = (props) => {
