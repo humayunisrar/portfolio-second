@@ -1,37 +1,4 @@
-# netlify.toml
-
-# Build settings
-[build]
-    command = "npm run build"  # Replace with your build command
-    publish = "dist"  # Replace with the directory to publish
-
-# Redirects and rewrites
 [[redirects]]
     from = "/*"
     to = "/index.html"
     status = 200
-
-# Headers
-[[headers]]
-    for = "/*"
-        [headers.values]
-        Access-Control-Allow-Origin = "*"  # Replace with your desired CORS policy
-
-# Environment variables
-[build.environment]
-    NODE_ENV = "production"  # Replace with your desired environment variable
-
-# Plugins
-[[plugins]]
-    package = "@netlify/plugin-sitemap"  # Replace with your desired plugin package
-    # Add any additional plugins here
-
-# Deploy context
-[context.production]
-    command = "npm run build"  # Replace with your production build command
-
-[context.deploy-preview]
-    command = "npm run build"  # Replace with your deploy preview build command
-
-[context.branch-deploy]
-    command = "npm run build"  # Replace with your branch deploy build command
